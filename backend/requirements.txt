@@ -1,0 +1,11 @@
+fastapi>=0.118.2
+uvicorn[standard]>=0.24.0
+python-dotenv>=1.0.0
+langchain>=0.0.450
+google-generativeai>=0.2.0
+huggingface-hub>=0.16.4
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+sqlalchemy>=2.0.20
+asyncpg>=0.27.0
+psycopg[binary]>=3.1.0

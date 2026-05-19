@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "lap001",
+    "name": "ASUS VivoBook 15",
+    "category": "Laptops",
+    "price": 34999,
+    "rating": 4.2,
+    "brand": "ASUS",
+    "description": "15.6-inch FHD display with Intel Core i5, 8GB RAM, 512GB SSD. Great for everyday computing and light work.",
+    "specifications": {
+      "processor": "Intel Core i5-1235U",
+      "ram": "8GB DDR4",
+      "storage": "512GB SSD",
+      "display": "15.6\" FHD (1920x1080)",
+      "battery": "42Wh",
+      "weight": "1.8kg"
+    },
+    "reviews": [
+      "Good value for the price, but battery could be better.",
+      "Perfect for students and everyday use. Builds quality is solid.",
+      "Slow performance for multitasking, disappointing.",
+      "Great screen quality and keyboard, very satisfied."
+    ]
+  },
+  {
+    "id": "lap002",
+    "name": "HP Pavilion 15",
+    "category": "Laptops",
+    "price": 39999,
+    "rating": 4.3,
+    "brand": "HP",
+    "description": "15.6-inch HD display with AMD Ryzen 5, 8GB RAM, 256GB SSD. Lightweight and portable.",
+    "specifications": {
+      "processor": "AMD Ryzen 5 5500U",
+      "ram": "8GB DDR4",
+      "storage": "256GB SSD",
+      "display": "15.6\" HD (1366x768)",
+      "battery": "41Wh",
+      "weight": "1.74kg"
+    },
+    "reviews": [
+      "Decent performance but screen resolution is lower than expected.",
+      "Amazing battery life, runs smoothly for browsing.",
+      "Fan noise is too loud, heating issues.",
+      "Great design and portability for travel."
+    ]
+  },
+  {
+    "id": "lap003",
+    "name": "Lenovo IdeaPad Slim 5",
+    "category": "Laptops",
+    "price": 54999,
+    "rating": 4.5,
+    "brand": "Lenovo",
+    "description": "14-inch FHD IPS display with Ryzen 7, 16GB RAM, 512GB SSD. Perfect for productivity and creative work.",
+    "specifications": {
+      "processor": "AMD Ryzen 7 5700U",
+      "ram": "16GB DDR4",
+      "storage": "512GB SSD",
+      "display": "14\" FHD IPS (1920x1200)",
+      "battery": "52.5Wh",
+      "weight": "1.49kg"
+    },
+    "reviews": [
+      "Excellent build quality and performance for the price.",
+      "Great for coding and design work. Very satisfied.",
+      "Trackpad is a bit small, but overall solid.",
+      "Battery life is decent, could be better."
+    ]
+  },
+  {
+    "id": "lap004",
+    "name": "ASUS TUF Gaming F15",
+    "category": "Laptops",
+    "price": 67999,
+    "rating": 4.6,
+    "brand": "ASUS",
+    "description": "15.6-inch 144Hz FHD gaming laptop with Intel Core i7, RTX 4050, 16GB RAM, 512GB SSD.",
+    "specifications": {
+      "processor": "Intel Core i7-12700H",
+      "ram": "16GB DDR5",
+      "storage": "512GB NVMe SSD",
+      "display": "15.6\" FHD 144Hz",
+      "gpu": "NVIDIA RTX 4050",
+      "battery": "90Wh",
+      "weight": "2.2kg"
+    },
+    "reviews": [
+      "Outstanding gaming performance, runs AAA games smooth.",
+      "Gets hot during gaming sessions, loud fans.",
+      "Great display refresh rate, very responsive.",
+      "Battery drains fast under load, expected for gaming."
+    ]
+  },
+  {
+    "id": "lap005",
+    "name": "HP Victus 16",
+    "category": "Laptops",
+    "price": 58999,
+    "rating": 4.4,
+    "brand": "HP",
+    "description": "16.1-inch FHD 144Hz gaming laptop with Ryzen 7, RTX 3050, 16GB RAM, 512GB SSD.",
+    "specifications": {
+      "processor": "AMD Ryzen 7 6800H",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD",
+      "display": "16.1\" FHD 144Hz",
+      "gpu": "NVIDIA RTX 3050",
+      "battery": "80Wh",
+      "weight": "2.4kg"
+    },
+    "reviews": [
+      "Excellent value for gaming, great performance.",
+      "Heavy laptop, not ideal for portability.",
+      "Display is vibrant and smooth, very impressed.",
+      "Keyboard could be better for gaming."
+    ]
+  },
+  {
+    "id": "lap006",
+    "name": "Apple MacBook Air M2",
+    "category": "Laptops",
+    "price": 109999,
+    "rating": 4.8,
+    "brand": "Apple",
+    "description": "13.6-inch Liquid Retina display with Apple M2 chip, 8GB RAM, 256GB SSD. Premium ultrabook.",
+    "specifications": {
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "13.6\" Liquid Retina (2560x1664)",
+      "battery": "52.6Wh",
+      "weight": "1.24kg"
+    },
+    "reviews": [
+      "Phenomenal performance and battery life, worth the price.",
+      "Very expensive, only 8GB RAM is limiting.",
+      "Build quality is exceptional, best in class.",
+      "Excellent for developers and creatives."
+    ]
+  },
+  {
+    "id": "lap007",
+    "name": "Dell XPS 13",
+    "category": "Laptops",
+    "price": 89999,
+    "rating": 4.7,
+    "brand": "Dell",
+    "description": "13.4-inch FHD+ InfinityEdge display with Intel Core i7, 16GB RAM, 512GB SSD.",
+    "specifications": {
+      "processor": "Intel Core i7-1280P",
+      "ram": "16GB DDR4",
+      "storage": "512GB NVMe SSD",
+      "display": "13.4\" FHD+ (1920x1200)",
+      "battery": "52Wh",
+      "weight": "1.2kg"
+    },
+    "reviews": [
+      "Sleek design and excellent portability.",
+      "Thermal throttling under heavy load.",
+      "Display is stunning with minimal bezels.",
+      "Keyboard is comfortable for long sessions."
+    ]
+  },
+  {
+    "id": "lap008",
+    "name": "Acer Aspire 5",
+    "category": "Laptops",
+    "price": 44999,
+    "rating": 4.1,
+    "brand": "Acer",
+    "description": "15.6-inch FHD display with Ryzen 5, 8GB RAM, 512GB SSD. Good all-rounder.",
+    "specifications": {
+      "processor": "AMD Ryzen 5 5500U",
+      "ram": "8GB DDR4",
+      "storage": "512GB SSD",
+      "display": "15.6\" FHD (1920x1080)",
+      "battery": "50Wh",
+      "weight": "1.8kg"
+    },
+    "reviews": [
+      "Good performance for the price, solid build.",
+      "Plastic chassis feels cheap at times.",
+      "Runs software smoothly, very capable.",
+      "Battery life is average, could be better."
+    ]
+  },
+  {
+    "id": "lap009",
+    "name": "MSI GE66 Raider",
+    "category": "Laptops",
+    "price": 79999,
+    "rating": 4.5,
+    "brand": "MSI",
+    "description": "15.6-inch FHD 240Hz gaming laptop with Intel Core i9, RTX 4070, 32GB RAM, 1TB SSD.",
+    "specifications": {
+      "processor": "Intel Core i9-12900HK",
+      "ram": "32GB DDR5",
+      "storage": "1TB NVMe SSD",
+      "display": "15.6\" FHD 240Hz",
+      "gpu": "NVIDIA RTX 4070",
+      "battery": "99.9Wh",
+      "weight": "2.25kg"
+    },
+    "reviews": [
+      "Absolute powerhouse for gaming and content creation.",
+      "Runs hot and loud, needs good cooling setup.",
+      "Display is ultra-smooth, exceptional for gaming.",
+      "Premium pricing but justified performance."
+    ]
+  },
+  {
+    "id": "lap010",
+    "name": "OnePlus Pad",
+    "category": "Laptops",
+    "price": 39999,
+    "rating": 4.3,
+    "brand": "OnePlus",
+    "description": "11.6-inch LCD display with Snapdragon 8 Gen 1 Leading Version, 8GB RAM, 128GB storage.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 1 Leading",
+      "ram": "8GB LPDDR5",
+      "storage": "128GB UFS 3.1",
+      "display": "11.61\" LCD (2560x1600)",
+      "battery": "13100mAh",
+      "weight": "545g"
+    },
+    "reviews": [
+      "Great display and performance for productivity.",
+      "Software lacks optimization, occasional lag.",
+      "Good value for a premium tablet.",
+      "Excellent for media consumption."
+    ]
+  },
+  {
+    "id": "lap011",
+    "name": "ROG Zephyrus G14",
+    "category": "Laptops",
+    "price": 119999,
+    "rating": 4.7,
+    "brand": "ASUS",
+    "description": "14-inch QHD+ 120Hz display with Intel Core i9, RTX 4070, 16GB RAM, 1TB SSD. Premium gaming ultrabook.",
+    "specifications": {
+      "processor": "Intel Core i9-13900HS",
+      "ram": "16GB DDR5",
+      "storage": "1TB NVMe SSD",
+      "display": "14\" QHD+ 120Hz (2560x1600)",
+      "gpu": "NVIDIA RTX 4070",
+      "battery": "80Wh",
+      "weight": "1.65kg"
+    },
+    "reviews": [
+      "Incredible performance in a compact ultrabook form.",
+      "Very expensive, premium pricing.",
+      "Display is stunning and high refresh rate.",
+      "Best for gaming and creative professionals."
+    ]
+  },
+  {
+    "id": "lap012",
+    "name": "ThinkPad X1 Carbon",
+    "category": "Laptops",
+    "price": 99999,
+    "rating": 4.6,
+    "brand": "Lenovo",
+    "description": "14-inch FHD display with Intel Core i7, 16GB RAM, 512GB SSD. Business ultrabook.",
+    "specifications": {
+      "processor": "Intel Core i7-1365U",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD",
+      "display": "14\" FHD (1920x1200)",
+      "battery": "52Wh",
+      "weight": "1.19kg"
+    },
+    "reviews": [
+      "Perfect for business professionals, excellent keyboard.",
+      "Expensive for specs, premium brand tax.",
+      "Build quality is outstanding, very durable.",
+      "Great for long workdays with solid battery."
+    ]
+  },
+  {
+    "id": "lap013",
+    "name": "Razer Blade 15",
+    "category": "Laptops",
+    "price": 149999,
+    "rating": 4.8,
+    "brand": "Razer",
+    "description": "15.6-inch 4K OLED 144Hz display with Intel Core i9, RTX 4090, 32GB RAM, 2TB SSD.",
+    "specifications": {
+      "processor": "Intel Core i9-13900HX",
+      "ram": "32GB DDR5",
+      "storage": "2TB NVMe SSD",
+      "display": "15.6\" 4K OLED 144Hz",
+      "gpu": "NVIDIA RTX 4090",
+      "battery": "86Wh",
+      "weight": "2.01kg"
+    },
+    "reviews": [
+      "Absolute beast machine, runs anything smoothly.",
+      "Premium pricing, overkill for most users.",
+      "Display is gorgeous with perfect blacks.",
+      "Best laptop for high-end gaming and work."
+    ]
+  },
+  {
+    "id": "lap014",
+    "name": "Samsung Galaxy Book Pro 360",
+    "category": "Laptops",
+    "price": 74999,
+    "rating": 4.4,
+    "brand": "Samsung",
+    "description": "13.3-inch FHD AMOLED touchscreen with Intel Core i7, 8GB RAM, 256GB SSD. 2-in-1 convertible.",
+    "specifications": {
+      "processor": "Intel Core i7-1280P",
+      "ram": "8GB DDR4",
+      "storage": "256GB SSD",
+      "display": "13.3\" FHD AMOLED Touch",
+      "battery": "63Wh",
+      "weight": "1.69kg"
+    },
+    "reviews": [
+      "Amazing display quality with AMOLED technology.",
+      "Touchscreen adds unnecessary cost.",
+      "Good for creative work and presentations.",
+      "Battery life is solid for the specs."
+    ]
+  },
+  {
+    "id": "lap015",
+    "name": "Apple MacBook Pro 14",
+    "category": "Laptops",
+    "price": 189999,
+    "rating": 4.9,
+    "brand": "Apple",
+    "description": "14.2-inch Liquid Retina XDR display with Apple M3 Max, 36GB RAM, 512GB SSD.",
+    "specifications": {
+      "processor": "Apple M3 Max",
+      "ram": "36GB",
+      "storage": "512GB SSD",
+      "display": "14.2\" Liquid Retina XDR (3456x2234)",
+      "battery": "69.6Wh",
+      "weight": "1.6kg"
+    },
+    "reviews": [
+      "Professional-grade laptop, exceptional performance.",
+      "Extremely expensive, not for casual users.",
+      "Display is the best you can get.",
+      "Overkill for most tasks but amazing when needed."
+    ]
+  },
+  {
+    "id": "lap016",
+    "name": "ASUS Chromebook Flip",
+    "category": "Laptops",
+    "price": 24999,
+    "rating": 4.0,
+    "brand": "ASUS",
+    "description": "14-inch FHD touchscreen with MediaTek processor, 8GB RAM, 128GB storage. Budget 2-in-1.",
+    "specifications": {
+      "processor": "MediaTek Kompanio 1200",
+      "ram": "8GB LPDDR4x",
+      "storage": "128GB eMMC",
+      "display": "14\" FHD Touch (1920x1080)",
+      "battery": "50Wh",
+      "weight": "1.5kg"
+    },
+    "reviews": [
+      "Great budget option for web browsing and office work.",
+      "Chrome OS limits functionality for some users.",
+      "Good build quality for the price.",
+      "Perfect for students and light users."
+    ]
+  },
+  {
+    "id": "lap017",
+    "name": "Alienware m15 R5",
+    "category": "Laptops",
+    "price": 99999,
+    "rating": 4.6,
+    "brand": "Alienware",
+    "description": "15.6-inch FHD 360Hz gaming laptop with Intel Core i7, RTX 3080 Ti, 32GB RAM, 1TB SSD.",
+    "specifications": {
+      "processor": "Intel Core i7-12700H",
+      "ram": "32GB DDR5",
+      "storage": "1TB NVMe SSD",
+      "display": "15.6\" FHD 360Hz",
+      "gpu": "NVIDIA RTX 3080 Ti",
+      "battery": "86Wh",
+      "weight": "2.64kg"
+    },
+    "reviews": [
+      "Extreme gaming performance, plays everything maxed.",
+      "Very heavy and power-hungry.",
+      "Display is incredibly smooth for competitive gaming.",
+      "Great for esports professionals."
+    ]
+  },
+  {
+    "id": "lap018",
+    "name": "Google Pixelbook Go",
+    "category": "Laptops",
+    "price": 54999,
+    "rating": 4.3,
+    "brand": "Google",
+    "description": "13.3-inch FHD display with Intel Core m3, 8GB RAM, 128GB storage. Premium Chromebook.",
+    "specifications": {
+      "processor": "Intel Core m3-8100Y",
+      "ram": "8GB DDR3",
+      "storage": "128GB SSD",
+      "display": "13.3\" FHD (1920x1080)",
+      "battery": "47.36Wh",
+      "weight": "1.25kg"
+    },
+    "reviews": [
+      "Premium build quality and excellent keyboard.",
+      "Limited functionality with Chrome OS.",
+      "Super lightweight and portable.",
+      "Great for Google Workspace users."
+    ]
+  },
+  {
+    "id": "lap019",
+    "name": "HP Envy x360",
+    "category": "Laptops",
+    "price": 64999,
+    "rating": 4.4,
+    "brand": "HP",
+    "description": "15.6-inch OLED touchscreen with Ryzen 7, 16GB RAM, 512GB SSD. Convertible ultrabook.",
+    "specifications": {
+      "processor": "AMD Ryzen 7 6800U",
+      "ram": "16GB DDR5",
+      "storage": "512GB SSD",
+      "display": "15.6\" OLED Touch (1920x1200)",
+      "battery": "66Wh",
+      "weight": "2.0kg"
+    },
+    "reviews": [
+      "Beautiful OLED display, fantastic colors.",
+      "Hinge could be more robust.",
+      "Great for creative professionals.",
+      "Touchscreen adds value to productivity."
+    ]
+  },
+  {
+    "id": "lap020",
+    "name": "System76 Lemur Pro",
+    "category": "Laptops",
+    "price": 79999,
+    "rating": 4.5,
+    "brand": "System76",
+    "description": "14-inch FHD display with Intel Core i7, 16GB RAM, 512GB SSD. Linux-focused ultrabook.",
+    "specifications": {
+      "processor": "Intel Core i7-1280P",
+      "ram": "16GB DDR4",
+      "storage": "512GB SSD",
+      "display": "14\" FHD (1920x1080)",
+      "battery": "52.5Wh",
+      "weight": "1.36kg"
+    },
+    "reviews": [
+      "Perfect for developers and Linux enthusiasts.",
+      "Limited appeal for Windows users.",
+      "Excellent build quality and support.",
+      "Great for open-source development."
+    ]
+  },
+  {
+    "id": "phone001",
+    "name": "Apple iPhone 15",
+    "category": "Phones",
+    "price": 84999,
+    "rating": 4.8,
+    "brand": "Apple",
+    "description": "6.1-inch Super Retina XDR display with A17 Pro chip, 128GB storage. Premium smartphone.",
+    "specifications": {
+      "processor": "Apple A17 Pro",
+      "storage": "128GB",
+      "display": "6.1\" Super Retina XDR",
+      "camera": "12MP Dual Camera",
+      "battery": "3349mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Excellent camera quality and processing speed.",
+      "Very expensive for the base storage.",
+      "Smooth performance, no lag whatsoever.",
+      "Premium design and excellent display."
+    ]
+  },
+  {
+    "id": "phone002",
+    "name": "Samsung Galaxy S24",
+    "category": "Phones",
+    "price": 74999,
+    "rating": 4.7,
+    "brand": "Samsung",
+    "description": "6.1-inch Dynamic AMOLED 2X display with Snapdragon 8 Gen 3, 256GB storage.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 3",
+      "storage": "256GB",
+      "display": "6.1\" Dynamic AMOLED 2X",
+      "camera": "50MP Quad Camera",
+      "battery": "4000mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Fantastic camera with great night mode.",
+      "Good value for premium flagship.",
+      "Display is vibrant and responsive.",
+      "Battery life lasts a full day easily."
+    ]
+  },
+  {
+    "id": "phone003",
+    "name": "Google Pixel 8",
+    "category": "Phones",
+    "price": 64999,
+    "rating": 4.6,
+    "brand": "Google",
+    "description": "6.3-inch Oled display with Google Tensor G3, 128GB storage. AI-focused flagship.",
+    "specifications": {
+      "processor": "Google Tensor G3",
+      "storage": "128GB",
+      "display": "6.3\" OLED",
+      "camera": "50MP Dual Camera",
+      "battery": "4700mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Best computational photography features.",
+      "Magic Eraser and AI features are impressive.",
+      "Great camera for everyday use.",
+      "Software integration is seamless."
+    ]
+  },
+  {
+    "id": "phone004",
+    "name": "OnePlus 12",
+    "category": "Phones",
+    "price": 54999,
+    "rating": 4.5,
+    "brand": "OnePlus",
+    "description": "6.7-inch Amoled display with Snapdragon 8 Gen 3, 256GB storage. Fast and smooth.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 3",
+      "storage": "256GB",
+      "display": "6.7\" AMOLED 120Hz",
+      "camera": "50MP Dual Camera",
+      "battery": "5400mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Incredibly fast performance with Oxygen OS.",
+      "Camera could be better in low light.",
+      "Great value for the flagship specs.",
+      "Smooth scrolling and gaming experience."
+    ]
+  },
+  {
+    "id": "phone005",
+    "name": "Xiaomi 14 Ultra",
+    "category": "Phones",
+    "price": 79999,
+    "rating": 4.6,
+    "brand": "Xiaomi",
+    "description": "6.73-inch LTPO AMOLED display with Snapdragon 8 Gen 3 Leading, 512GB storage.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 3 Leading",
+      "storage": "512GB",
+      "display": "6.73\" LTPO AMOLED",
+      "camera": "50MP Leica Quad Camera",
+      "battery": "5900mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Exceptional camera with Leica optics.",
+      "MIUI interface takes time to learn.",
+      "Excellent zoom and detail in photos.",
+      "Premium phone at competitive price."
+    ]
+  },
+  {
+    "id": "phone006",
+    "name": "Samsung Galaxy A54",
+    "category": "Phones",
+    "price": 34999,
+    "rating": 4.3,
+    "brand": "Samsung",
+    "description": "6.4-inch Dynamic AMOLED display with Exynos 1280, 128GB storage. Mid-range powerhouse.",
+    "specifications": {
+      "processor": "Exynos 1280",
+      "storage": "128GB",
+      "display": "6.4\" Dynamic AMOLED",
+      "camera": "50MP Quad Camera",
+      "battery": "5000mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Great value flagship killer.",
+      "Performance slightly lower than S24.",
+      "Good camera for the price point.",
+      "Solid battery life and build."
+    ]
+  },
+  {
+    "id": "phone007",
+    "name": "Motorola Edge 50",
+    "category": "Phones",
+    "price": 29999,
+    "rating": 4.2,
+    "brand": "Motorola",
+    "description": "6.55-inch OLED display with Snapdragon 7 Gen 3, 256GB storage. Near-stock Android.",
+    "specifications": {
+      "processor": "Snapdragon 7 Gen 3",
+      "storage": "256GB",
+      "display": "6.55\" OLED",
+      "camera": "50MP Dual Camera",
+      "battery": "5000mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Clean Android experience, minimal bloatware.",
+      "Performance is good but not exceptional.",
+      "Great display for the price.",
+      "Reliable and long-lasting."
+    ]
+  },
+  {
+    "id": "phone008",
+    "name": "Nothing Phone 2",
+    "category": "Phones",
+    "price": 39999,
+    "rating": 4.4,
+    "brand": "Nothing",
+    "description": "6.7-inch AMOLED display with Snapdragon 8+ Gen 1, 256GB storage. Unique Glyph design.",
+    "specifications": {
+      "processor": "Snapdragon 8+ Gen 1",
+      "storage": "256GB",
+      "display": "6.7\" AMOLED 120Hz",
+      "camera": "50MP Dual Camera",
+      "battery": "4700mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Unique design with Glyph interface is cool.",
+      "Camera performance is average.",
+      "Fast performance and good battery.",
+      "Great for tech enthusiasts."
+    ]
+  },
+  {
+    "id": "phone009",
+    "name": "iPhone 15 Pro Max",
+    "category": "Phones",
+    "price": 129999,
+    "rating": 4.9,
+    "brand": "Apple",
+    "description": "6.7-inch Super Retina XDR display with A17 Pro chip, 256GB storage. Premium flagship.",
+    "specifications": {
+      "processor": "Apple A17 Pro",
+      "storage": "256GB",
+      "display": "6.7\" Super Retina XDR",
+      "camera": "48MP Pro Camera",
+      "battery": "4323mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Best smartphone camera ever made.",
+      "Very expensive, pricing is steep.",
+      "Pro features are fantastic for creatives.",
+      "Excellent build quality and design."
+    ]
+  },
+  {
+    "id": "phone010",
+    "name": "Google Pixel 8 Pro",
+    "category": "Phones",
+    "price": 99999,
+    "rating": 4.7,
+    "brand": "Google",
+    "description": "6.7-inch QHD+ OLED display with Tensor G3, 256GB storage. AI-powered flagship.",
+    "specifications": {
+      "processor": "Google Tensor G3",
+      "storage": "256GB",
+      "display": "6.7\" QHD+ OLED",
+      "camera": "50MP Pro Triple Camera",
+      "battery": "5000mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Best AI features in smartphones.",
+      "Best Take and Magic Eraser are game-changers.",
+      "Excellent low light photography.",
+      "Premium phone with great software."
+    ]
+  },
+  {
+    "id": "phone011",
+    "name": "OPPO Find X7",
+    "category": "Phones",
+    "price": 69999,
+    "rating": 4.5,
+    "brand": "OPPO",
+    "description": "6.78-inch AMOLED display with Snapdragon 8 Gen 3, 512GB storage. Camera-focused phone.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 3",
+      "storage": "512GB",
+      "display": "6.78\" AMOLED",
+      "camera": "50MP Hasselblad Quad",
+      "battery": "5910mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Exceptional night photography with Hasselblad.",
+      "ColorOS interface has learning curve.",
+      "Excellent zoom capabilities.",
+      "Premium design and smooth performance."
+    ]
+  },
+  {
+    "id": "phone012",
+    "name": "vivo X100",
+    "category": "Phones",
+    "price": 59999,
+    "rating": 4.4,
+    "brand": "vivo",
+    "description": "6.78-inch AMOLED display with Snapdragon 8 Gen 3, 256GB storage. All-rounder.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 3",
+      "storage": "256GB",
+      "display": "6.78\" AMOLED",
+      "camera": "50MP Zeiss Triple",
+      "battery": "5400mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Great camera system with Zeiss optics.",
+      "Performance is excellent overall.",
+      "Design is sleek and premium.",
+      "Good value for specs offered."
+    ]
+  },
+  {
+    "id": "phone013",
+    "name": "Samsung Galaxy Z Fold5",
+    "category": "Phones",
+    "price": 149999,
+    "rating": 4.6,
+    "brand": "Samsung",
+    "description": "7.6-inch foldable AMOLED display with Snapdragon 8 Gen 2, 256GB storage.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 2",
+      "storage": "256GB",
+      "display": "7.6\" Foldable AMOLED",
+      "camera": "50MP Triple Camera",
+      "battery": "4400mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Revolutionary foldable technology.",
+      "Very expensive, fragile screen.",
+      "Great multitasking with large display.",
+      "Future of smartphones is here."
+    ]
+  },
+  {
+    "id": "phone014",
+    "name": "OnePlus Open",
+    "category": "Phones",
+    "price": 139999,
+    "rating": 4.5,
+    "brand": "OnePlus",
+    "description": "7.82-inch foldable AMOLED display with Snapdragon 8 Gen 2, 512GB storage.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 2",
+      "storage": "512GB",
+      "display": "7.82\" Foldable AMOLED",
+      "camera": "48MP Hasselblad",
+      "battery": "5510mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Smoothest foldable experience available.",
+      "Great value compared to competitors.",
+      "Less creasing than rivals.",
+      "Outstanding multitasking capabilities."
+    ]
+  },
+  {
+    "id": "phone015",
+    "name": "Xiaomi 13T",
+    "category": "Phones",
+    "price": 44999,
+    "rating": 4.4,
+    "brand": "Xiaomi",
+    "description": "6.67-inch AMOLED display with Snapdragon 8 Gen 2, 256GB storage.",
+    "specifications": {
+      "processor": "Snapdragon 8 Gen 2",
+      "storage": "256GB",
+      "display": "6.67\" AMOLED 144Hz",
+      "camera": "50MP Leica",
+      "battery": "5160mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Fast charging is incredibly quick.",
+      "Great value flagship phone.",
+      "Excellent display refresh rate.",
+      "Performance is smooth and snappy."
+    ]
+  },
+  {
+    "id": "phone016",
+    "name": "Realme 12 Pro+",
+    "category": "Phones",
+    "price": 34999,
+    "rating": 4.3,
+    "brand": "Realme",
+    "description": "6.7-inch AMOLED display with Snapdragon 8s Gen 1, 256GB storage. Budget flagship.",
+    "specifications": {
+      "processor": "Snapdragon 8s Gen 1",
+      "storage": "256GB",
+      "display": "6.7\" AMOLED",
+      "camera": "50MP Periscope",
+      "battery": "5000mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Excellent value for money proposition.",
+      "Unique telephoto camera feature.",
+      "Good all-around performer.",
+      "Great for budget-conscious buyers."
+    ]
+  },
+  {
+    "id": "phone017",
+    "name": "iPhone SE",
+    "category": "Phones",
+    "price": 44999,
+    "rating": 4.2,
+    "brand": "Apple",
+    "description": "4.7-inch Retina display with A15 Bionic, 64GB storage. Compact affordable iPhone.",
+    "specifications": {
+      "processor": "Apple A15 Bionic",
+      "storage": "64GB",
+      "display": "4.7\" Retina",
+      "camera": "12MP Single",
+      "battery": "2000mAh",
+      "5g": false
+    },
+    "reviews": [
+      "Great for budget-conscious Apple users.",
+      "Good performance with A15 chip.",
+      "Small screen might not suit everyone.",
+      "Affordable entry to iOS ecosystem."
+    ]
+  },
+  {
+    "id": "phone018",
+    "name": "Samsung Galaxy A35",
+    "category": "Phones",
+    "price": 26999,
+    "rating": 4.1,
+    "brand": "Samsung",
+    "description": "6.6-inch AMOLED display with Exynos 1280, 128GB storage. Budget friendly.",
+    "specifications": {
+      "processor": "Exynos 1280",
+      "storage": "128GB",
+      "display": "6.6\" AMOLED",
+      "camera": "50MP Dual",
+      "battery": "5000mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Good value proposition for budget buyers.",
+      "Performance is adequate for everyday use.",
+      "AMOLED display is a nice touch.",
+      "Solid battery life."
+    ]
+  },
+  {
+    "id": "phone019",
+    "name": "Huawei Mate 60 Pro",
+    "category": "Phones",
+    "price": 89999,
+    "rating": 4.5,
+    "brand": "Huawei",
+    "description": "6.82-inch AMOLED display with Kirin 9000S, 512GB storage. Flagship phone.",
+    "specifications": {
+      "processor": "Kirin 9000S",
+      "storage": "512GB",
+      "display": "6.82\" AMOLED",
+      "camera": "50MP Leica Quad",
+      "battery": "5220mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Excellent camera system overall.",
+      "Limited app availability in some regions.",
+      "Premium design and build quality.",
+      "Great performance and battery."
+    ]
+  },
+  {
+    "id": "phone020",
+    "name": "Nokia XR21",
+    "category": "Phones",
+    "price": 54999,
+    "rating": 4.3,
+    "brand": "Nokia",
+    "description": "6.5-inch IPS display with Snapdragon 695, 128GB storage. Rugged smartphone.",
+    "specifications": {
+      "processor": "Snapdragon 695",
+      "storage": "128GB",
+      "display": "6.5\" IPS",
+      "camera": "50MP Dual",
+      "battery": "4630mAh",
+      "5g": true
+    },
+    "reviews": [
+      "Extremely durable and rugged design.",
+      "Performance lags behind competitors.",
+      "Perfect for outdoor activities.",
+      "Great battery life."
+    ]
+  },
+  {
+    "id": "watch001",
+    "name": "Apple Watch Series 9",
+    "category": "Smart Watches",
+    "price": 39999,
+    "rating": 4.8,
+    "brand": "Apple",
+    "description": "41mm LTPO Retina OLED display with S9 chip, 64GB storage. Flagship smartwatch.",
+    "specifications": {
+      "processor": "Apple S9",
+      "storage": "64GB",
+      "display": "41mm LTPO OLED",
+      "battery": "308mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Best smartwatch experience overall.",
+      "Expensive compared to alternatives.",
+      "Excellent fitness tracking and health features.",
+      "Seamless integration with iPhone."
+    ]
+  },
+  {
+    "id": "watch002",
+    "name": "Samsung Galaxy Watch6 Classic",
+    "category": "Smart Watches",
+    "price": 34999,
+    "rating": 4.7,
+    "brand": "Samsung",
+    "description": "43mm AMOLED display with rotating bezel, Exynos W930, 16GB storage.",
+    "specifications": {
+      "processor": "Exynos W930",
+      "storage": "16GB",
+      "display": "43mm AMOLED",
+      "battery": "425mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Great alternative to Apple Watch.",
+      "Rotating bezel is intuitive.",
+      "Excellent display quality.",
+      "Good battery life for a smartwatch."
+    ]
+  },
+  {
+    "id": "watch003",
+    "name": "Garmin Epix Gen 2",
+    "category": "Smart Watches",
+    "price": 44999,
+    "rating": 4.6,
+    "brand": "Garmin",
+    "description": "1.3-inch AMOLED display with solar charging, 32GB storage. Outdoor focused.",
+    "specifications": {
+      "processor": "Garmin Custom",
+      "storage": "32GB",
+      "display": "1.3\" AMOLED",
+      "battery": "500mAh",
+      "water_resistance": "100m"
+    },
+    "reviews": [
+      "Best for outdoor enthusiasts.",
+      "Solar charging extends battery life.",
+      "Excellent GPS tracking.",
+      "Great for athletes and hikers."
+    ]
+  },
+  {
+    "id": "watch004",
+    "name": "Fitbit Sense 2",
+    "category": "Smart Watches",
+    "price": 24999,
+    "rating": 4.4,
+    "brand": "Fitbit",
+    "description": "1.58-inch AMOLED display with health monitoring, 1GB storage. Health-focused.",
+    "specifications": {
+      "processor": "Fitbit Custom",
+      "storage": "1GB",
+      "display": "1.58\" AMOLED",
+      "battery": "350mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Comprehensive health tracking features.",
+      "Great for fitness enthusiasts.",
+      "Battery life is solid.",
+      "Easy to use interface."
+    ]
+  },
+  {
+    "id": "watch005",
+    "name": "Amazfit GTR 4",
+    "category": "Smart Watches",
+    "price": 19999,
+    "rating": 4.5,
+    "brand": "Amazfit",
+    "description": "1.43-inch AMOLED display with sports modes, 8GB storage. Affordable smartwatch.",
+    "specifications": {
+      "processor": "Amazfit Custom",
+      "storage": "8GB",
+      "display": "1.43\" AMOLED",
+      "battery": "475mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Great value for the price.",
+      "Excellent battery life lasting weeks.",
+      "Good sports tracking capabilities.",
+      "Perfect for fitness tracking."
+    ]
+  },
+  {
+    "id": "watch006",
+    "name": "Google Pixel Watch 2",
+    "category": "Smart Watches",
+    "price": 29999,
+    "rating": 4.6,
+    "brand": "Google",
+    "description": "1.2-inch AMOLED display with Wear OS 3, 32GB storage. Google ecosystem.",
+    "specifications": {
+      "processor": "Google Tensor",
+      "storage": "32GB",
+      "display": "1.2\" AMOLED",
+      "battery": "310mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Great Wear OS experience.",
+      "Good integration with Google services.",
+      "Compact size is nice.",
+      "Respectable battery life."
+    ]
+  },
+  {
+    "id": "watch007",
+    "name": "Xiaomi Watch S1 Pro",
+    "category": "Smart Watches",
+    "price": 21999,
+    "rating": 4.4,
+    "brand": "Xiaomi",
+    "description": "1.47-inch AMOLED display with GPS, 8GB storage. Budget friendly.",
+    "specifications": {
+      "processor": "Xiaomi Custom",
+      "storage": "8GB",
+      "display": "1.47\" AMOLED",
+      "battery": "420mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Great value smartwatch.",
+      "Good health monitoring features.",
+      "Solid build quality.",
+      "Battery lasts several days."
+    ]
+  },
+  {
+    "id": "watch008",
+    "name": "Huawei Watch GT 4",
+    "category": "Smart Watches",
+    "price": 24999,
+    "rating": 4.5,
+    "brand": "Huawei",
+    "description": "1.43-inch AMOLED display with HarmonyOS, 32GB storage. Excellent battery.",
+    "specifications": {
+      "processor": "Huawei Custom",
+      "storage": "32GB",
+      "display": "1.43\" AMOLED",
+      "battery": "564mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Fantastic battery life lasting weeks.",
+      "Smooth interface with HarmonyOS.",
+      "Great sports tracking.",
+      "Solid design and build."
+    ]
+  },
+  {
+    "id": "watch009",
+    "name": "Fossil Gen 6 Smartwatch",
+    "category": "Smart Watches",
+    "price": 24999,
+    "rating": 4.3,
+    "brand": "Fossil",
+    "description": "1.28-inch AMOLED display with Wear OS 3, 8GB storage. Fashion-forward.",
+    "specifications": {
+      "processor": "Google Snapdragon",
+      "storage": "8GB",
+      "display": "1.28\" AMOLED",
+      "battery": "280mAh",
+      "water_resistance": "30m"
+    },
+    "reviews": [
+      "Stylish design options available.",
+      "Wear OS experience is smooth.",
+      "Good smartwatch features.",
+      "Battery could be better."
+    ]
+  },
+  {
+    "id": "watch010",
+    "name": "Coros Apex 2 Pro",
+    "category": "Smart Watches",
+    "price": 39999,
+    "rating": 4.7,
+    "brand": "Coros",
+    "description": "1.4-inch AMOLED display with GPS, 32GB storage. Sports focused.",
+    "specifications": {
+      "processor": "Coros Custom",
+      "storage": "32GB",
+      "display": "1.4\" AMOLED",
+      "battery": "500mAh",
+      "water_resistance": "100m"
+    },
+    "reviews": [
+      "Excellent sports watch for athletes.",
+      "Impressive battery life.",
+      "Great GPS accuracy.",
+      "Durable and reliable."
+    ]
+  },
+  {
+    "id": "watch011",
+    "name": "Suunto Race",
+    "category": "Smart Watches",
+    "price": 49999,
+    "rating": 4.6,
+    "brand": "Suunto",
+    "description": "1.4-inch AMOLED display with sports modes, 64GB storage. Adventure watch.",
+    "specifications": {
+      "processor": "Suunto Custom",
+      "storage": "64GB",
+      "display": "1.4\" AMOLED",
+      "battery": "500mAh",
+      "water_resistance": "100m"
+    },
+    "reviews": [
+      "Top sports and adventure watch.",
+      "Premium pricing is justified.",
+      "Excellent battery and durability.",
+      "Great for extreme sports."
+    ]
+  },
+  {
+    "id": "watch012",
+    "name": "Oura Ring Gen 3",
+    "category": "Smart Watches",
+    "price": 29999,
+    "rating": 4.5,
+    "brand": "Oura",
+    "description": "Smart ring with sleep tracking, body temperature monitoring, stress analysis.",
+    "specifications": {
+      "processor": "Oura Custom",
+      "storage": "32GB",
+      "display": "None",
+      "battery": "3-4 days",
+      "water_resistance": "100m"
+    },
+    "reviews": [
+      "Innovative wearable form factor.",
+      "Excellent sleep and health tracking.",
+      "Very comfortable to wear.",
+      "Unique health insights provided."
+    ]
+  },
+  {
+    "id": "watch013",
+    "name": "Honor MagicWatch 2",
+    "category": "Smart Watches",
+    "price": 18999,
+    "rating": 4.3,
+    "brand": "Honor",
+    "description": "1.39-inch AMOLED display with sports modes, 16GB storage. Budget smartwatch.",
+    "specifications": {
+      "processor": "Honor Custom",
+      "storage": "16GB",
+      "display": "1.39\" AMOLED",
+      "battery": "420mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Great value budget smartwatch.",
+      "Good battery life.",
+      "Decent health tracking.",
+      "Simple and reliable."
+    ]
+  },
+  {
+    "id": "watch014",
+    "name": "Polar Ignite 3",
+    "category": "Smart Watches",
+    "price": 27999,
+    "rating": 4.4,
+    "brand": "Polar",
+    "description": "1.19-inch AMOLED display with fitness tracking, 10GB storage. Fitness watch.",
+    "specifications": {
+      "processor": "Polar Custom",
+      "storage": "10GB",
+      "display": "1.19\" AMOLED",
+      "battery": "300mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Excellent fitness tracking features.",
+      "Great sports watch for runners.",
+      "Good training insights.",
+      "Battery life is decent."
+    ]
+  },
+  {
+    "id": "watch015",
+    "name": "TicWatch Pro 5",
+    "category": "Smart Watches",
+    "price": 31999,
+    "rating": 4.5,
+    "brand": "TicWatch",
+    "description": "1.4-inch AMOLED display with Wear OS 3, 32GB storage. Dual layer display.",
+    "specifications": {
+      "processor": "Google Snapdragon",
+      "storage": "32GB",
+      "display": "1.4\" AMOLED",
+      "battery": "380mAh",
+      "water_resistance": "50m"
+    },
+    "reviews": [
+      "Innovative dual display technology.",
+      "Good Wear OS implementation.",
+      "Solid battery with FSTN display.",
+      "Great smartwatch all around."
+    ]
+  },
+  {
+    "id": "head001",
+    "name": "Sony WH-1000XM5",
+    "category": "Headphones",
+    "price": 27999,
+    "rating": 4.8,
+    "brand": "Sony",
+    "description": "Over-ear wireless headphones with industry-leading noise cancellation, 30-hour battery.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "30 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Best noise cancellation available.",
+      "Sound quality is excellent.",
+      "Comfortable for long listening.",
+      "Worth the premium price."
+    ]
+  },
+  {
+    "id": "head002",
+    "name": "Apple AirPods Pro",
+    "category": "Headphones",
+    "price": 26999,
+    "rating": 4.7,
+    "brand": "Apple",
+    "description": "True wireless earbuds with active noise cancellation, 6-hour battery per charge.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "6 hours",
+      "drivers": "Custom",
+      "anc": true
+    },
+    "reviews": [
+      "Seamless integration with Apple devices.",
+      "Good noise cancellation.",
+      "Comfortable fit for most users.",
+      "Premium audio experience."
+    ]
+  },
+  {
+    "id": "head003",
+    "name": "Bose QuietComfort Ultra Earbuds",
+    "category": "Headphones",
+    "price": 34999,
+    "rating": 4.6,
+    "brand": "Bose",
+    "description": "Premium true wireless earbuds with outstanding ANC, 6-hour battery per charge.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "6 hours",
+      "drivers": "Custom",
+      "anc": true
+    },
+    "reviews": [
+      "Bose is synonymous with quality sound.",
+      "Excellent noise cancellation.",
+      "Slightly pricey but worth it.",
+      "Comfortable and reliable."
+    ]
+  },
+  {
+    "id": "head004",
+    "name": "Sennheiser Momentum 4",
+    "category": "Headphones",
+    "price": 34999,
+    "rating": 4.7,
+    "brand": "Sennheiser",
+    "description": "Over-ear wireless headphones with 60-hour battery, excellent sound quality.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "60 hours",
+      "drivers": "42mm",
+      "anc": true
+    },
+    "reviews": [
+      "Incredible battery life is a game changer.",
+      "Premium sound quality.",
+      "Comfortable for all-day use.",
+      "Great value proposition."
+    ]
+  },
+  {
+    "id": "head005",
+    "name": "JBL Live 770NC",
+    "category": "Headphones",
+    "price": 19999,
+    "rating": 4.4,
+    "brand": "JBL",
+    "description": "Over-ear wireless headphones with active noise cancellation, 50-hour battery.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "50 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Great value for the price.",
+      "Excellent battery life.",
+      "Good noise cancellation.",
+      "Solid sound quality."
+    ]
+  },
+  {
+    "id": "head006",
+    "name": "Beats Studio Pro",
+    "category": "Headphones",
+    "price": 35999,
+    "rating": 4.5,
+    "brand": "Beats",
+    "description": "Over-ear headphones with premium design, 40-hour battery, spatial audio.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "40 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Stylish design and premium build.",
+      "Great battery life.",
+      "Sound is good, tuned for bass.",
+      "Works great with Apple ecosystem."
+    ]
+  },
+  {
+    "id": "head007",
+    "name": "Google Pixel Buds Pro",
+    "category": "Headphones",
+    "price": 19999,
+    "rating": 4.3,
+    "brand": "Google",
+    "description": "True wireless earbuds with active noise cancellation, 7-hour battery per charge.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "7 hours",
+      "drivers": "Custom",
+      "anc": true
+    },
+    "reviews": [
+      "Great value Google earbuds.",
+      "Good noise cancellation.",
+      "Works well with Android.",
+      "Decent sound quality."
+    ]
+  },
+  {
+    "id": "head008",
+    "name": "Samsung Galaxy Buds2 Pro",
+    "category": "Headphones",
+    "price": 15999,
+    "rating": 4.4,
+    "brand": "Samsung",
+    "description": "True wireless earbuds with ANC, 5-hour battery, seamless Samsung integration.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "5 hours",
+      "drivers": "11mm",
+      "anc": true
+    },
+    "reviews": [
+      "Great for Samsung phone users.",
+      "Good sound quality and design.",
+      "Decent noise cancellation.",
+      "Value for money option."
+    ]
+  },
+  {
+    "id": "head009",
+    "name": "Jabra Elite 85t",
+    "category": "Headphones",
+    "price": 24999,
+    "rating": 4.5,
+    "brand": "Jabra",
+    "description": "True wireless earbuds with ANC, adjustable sound, 5.5-hour battery.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "5.5 hours",
+      "drivers": "12mm",
+      "anc": true
+    },
+    "reviews": [
+      "Great for calls and meetings.",
+      "Excellent sound customization.",
+      "Good comfort and fit.",
+      "Reliable connectivity."
+    ]
+  },
+  {
+    "id": "head010",
+    "name": "Bang & Olufsen Beoplay H95",
+    "category": "Headphones",
+    "price": 89999,
+    "rating": 4.8,
+    "brand": "Bang & Olufsen",
+    "description": "Premium over-ear headphones with titanium design, 80-hour battery.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "80 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Absolute luxury headphones.",
+      "Unmatched sound quality and design.",
+      "Incredible battery life.",
+      "Premium pricing justified."
+    ]
+  },
+  {
+    "id": "head011",
+    "name": "Skullcandy Crusher ANC",
+    "category": "Headphones",
+    "price": 14999,
+    "rating": 4.2,
+    "brand": "Skullcandy",
+    "description": "Over-ear headphones with bass boosting, 48-hour battery, noise cancellation.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "48 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Great bass for the price.",
+      "Long battery life.",
+      "Good for music and gaming.",
+      "Decent build quality."
+    ]
+  },
+  {
+    "id": "head012",
+    "name": "Anker Soundcore Space Q45",
+    "category": "Headphones",
+    "price": 12999,
+    "rating": 4.3,
+    "brand": "Anker",
+    "description": "Over-ear wireless headphones with ANC, 50-hour battery, budget-friendly.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "50 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Excellent value budget headphones.",
+      "Impressive battery life.",
+      "Good noise cancellation.",
+      "Solid audio quality."
+    ]
+  },
+  {
+    "id": "head013",
+    "name": "Audeze LCD-2 Closed Back",
+    "category": "Headphones",
+    "price": 79999,
+    "rating": 4.7,
+    "brand": "Audeze",
+    "description": "High-end wired headphones with planar drivers, audiophile quality.",
+    "specifications": {
+      "type": "Over-ear Wired",
+      "connection": "3.5mm Jack",
+      "battery": "None",
+      "drivers": "Planar Magnetic",
+      "anc": false
+    },
+    "reviews": [
+      "Audiophile level sound quality.",
+      "Excellent for studio work.",
+      "Comfortable despite weight.",
+      "Worth the investment for audio enthusiasts."
+    ]
+  },
+  {
+    "id": "head014",
+    "name": "Nothing Ear",
+    "category": "Headphones",
+    "price": 11999,
+    "rating": 4.2,
+    "brand": "Nothing",
+    "description": "True wireless earbuds with ANC, 6-hour battery, unique transparent design.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "6 hours",
+      "drivers": "Custom",
+      "anc": true
+    },
+    "reviews": [
+      "Unique transparent design is cool.",
+      "Good value for the price.",
+      "Decent sound quality.",
+      "Great for tech enthusiasts."
+    ]
+  },
+  {
+    "id": "head015",
+    "name": "Shure AONIC 50",
+    "category": "Headphones",
+    "price": 34999,
+    "rating": 4.6,
+    "brand": "Shure",
+    "description": "Premium over-ear headphones with legendary Shure sound, 30-hour battery.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "30 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Professional grade sound quality.",
+      "Built for durability and comfort.",
+      "Excellent for critical listening.",
+      "Premium brand reputation."
+    ]
+  },
+  {
+    "id": "head016",
+    "name": "Soundcore Liberty 4",
+    "category": "Headphones",
+    "price": 9999,
+    "rating": 4.1,
+    "brand": "Anker",
+    "description": "True wireless earbuds with ANC, 10-hour battery, great value.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "10 hours",
+      "drivers": "10.5mm",
+      "anc": true
+    },
+    "reviews": [
+      "Amazing value for budget earbuds.",
+      "Good sound quality.",
+      "Impressive battery life.",
+      "Perfect for students."
+    ]
+  },
+  {
+    "id": "head017",
+    "name": "Nura Nuraphone",
+    "category": "Headphones",
+    "price": 44999,
+    "rating": 4.5,
+    "brand": "Nura",
+    "description": "Over-ear headphones with personalized sound, 20-hour battery.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "20 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Unique sound personalization feature.",
+      "Great for customized audio.",
+      "Premium build quality.",
+      "Worth trying for audio lovers."
+    ]
+  },
+  {
+    "id": "head018",
+    "name": "Marshall Major V",
+    "category": "Headphones",
+    "price": 24999,
+    "rating": 4.4,
+    "brand": "Marshall",
+    "description": "Over-ear headphones with rock sound signature, 80-hour battery.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "80 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Iconic Marshall sound quality.",
+      "Incredible battery life.",
+      "Great for rock and metal.",
+      "Stylish retro design."
+    ]
+  },
+  {
+    "id": "head019",
+    "name": "Cambridge Audio Melomania 1",
+    "category": "Headphones",
+    "price": 21999,
+    "rating": 4.3,
+    "brand": "Cambridge Audio",
+    "description": "True wireless earbuds with premium sound, 9-hour battery.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "9 hours",
+      "drivers": "6.5mm",
+      "anc": false
+    },
+    "reviews": [
+      "Excellent audio quality for earbuds.",
+      "Great for audiophiles on the go.",
+      "Good design and comfort.",
+      "Premium sound at reasonable price."
+    ]
+  },
+  {
+    "id": "head020",
+    "name": "Turtle Beach Stealth Pro",
+    "category": "Headphones",
+    "price": 26999,
+    "rating": 4.5,
+    "brand": "Turtle Beach",
+    "description": "Gaming headphones with spatial audio, 30-hour battery, multiplatform.",
+    "specifications": {
+      "type": "Over-ear Gaming",
+      "connection": "Wireless/Bluetooth",
+      "battery": "30 hours",
+      "drivers": "50mm",
+      "anc": true
+    },
+    "reviews": [
+      "Best gaming headphones available.",
+      "Excellent spatial audio for gaming.",
+      "Multiplatform compatibility.",
+      "Great for competitive gaming."
+    ]
+  },
+  {
+    "id": "head021",
+    "name": "Sennheiser Momentum 3 Wireless",
+    "category": "Headphones",
+    "price": 44999,
+    "rating": 4.6,
+    "brand": "Sennheiser",
+    "description": "Premium over-ear headphones with 60-hour battery, excellent build.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "60 hours",
+      "drivers": "42mm",
+      "anc": true
+    },
+    "reviews": [
+      "Exceptional sound quality.",
+      "Unbelievable battery life.",
+      "Premium design and comfort.",
+      "Best headphones for music lovers."
+    ]
+  },
+  {
+    "id": "head022",
+    "name": "Edifier W830NB",
+    "category": "Headphones",
+    "price": 7999,
+    "rating": 4.0,
+    "brand": "Edifier",
+    "description": "Budget over-ear headphones with ANC, 40-hour battery.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "40 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Incredible value for the price.",
+      "Great battery life.",
+      "Decent noise cancellation.",
+      "Perfect for budget buyers."
+    ]
+  },
+  {
+    "id": "head023",
+    "name": "OPPO Enco X2",
+    "category": "Headphones",
+    "price": 13999,
+    "rating": 4.2,
+    "brand": "OPPO",
+    "description": "True wireless earbuds with ANC, 6-hour battery, quality sound.",
+    "specifications": {
+      "type": "True Wireless Earbuds",
+      "connection": "Bluetooth",
+      "battery": "6 hours",
+      "drivers": "10.2mm",
+      "anc": true
+    },
+    "reviews": [
+      "Good audio quality for the price.",
+      "Solid noise cancellation.",
+      "Comfortable fit.",
+      "Great for daily use."
+    ]
+  },
+  {
+    "id": "head024",
+    "name": "Monster Beats Studio Pro",
+    "category": "Headphones",
+    "price": 34999,
+    "rating": 4.5,
+    "brand": "Beats",
+    "description": "Professional grade headphones with spatial audio, 40-hour battery.",
+    "specifications": {
+      "type": "Over-ear",
+      "connection": "Wireless/Bluetooth",
+      "battery": "40 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Great for music production.",
+      "Excellent battery life.",
+      "Premium build quality.",
+      "Spatial audio is impressive."
+    ]
+  },
+  {
+    "id": "head025",
+    "name": "Razer Barracuda X",
+    "category": "Headphones",
+    "price": 11999,
+    "rating": 4.3,
+    "brand": "Razer",
+    "description": "Gaming wireless headphones with ANC, 50-hour battery, multiplatform.",
+    "specifications": {
+      "type": "Over-ear Gaming",
+      "connection": "Wireless/Bluetooth",
+      "battery": "50 hours",
+      "drivers": "40mm",
+      "anc": true
+    },
+    "reviews": [
+      "Excellent gaming headphones for the price.",
+      "Works across all platforms.",
+      "Great battery life.",
+      "Comfortable for long sessions."
+    ]
+  },
+  {
+    "id": "gaming001",
+    "name": "Logitech G Pro X Superlight 2",
+    "category": "Gaming Accessories",
+    "price": 16999,
+    "rating": 4.8,
+    "brand": "Logitech",
+    "description": "Ultra-lightweight gaming mouse with 32k DPI sensor, 80-hour battery.",
+    "specifications": {
+      "dpi": "32000",
+      "buttons": "5",
+      "weight": "63g",
+      "battery": "80 hours",
+      "type": "Wireless"
+    },
+    "reviews": [
+      "Best gaming mouse for esports.",
+      "Incredibly lightweight.",
+      "Perfect for precision gaming.",
+      "Worth the premium price."
+    ]
+  },
+  {
+    "id": "gaming002",
+    "name": "Razer DeathAdder V3",
+    "category": "Gaming Accessories",
+    "price": 12999,
+    "rating": 4.7,
+    "brand": "Razer",
+    "description": "Gaming mouse with 30k DPI sensor, scroll wheel resistance, ergonomic design.",
+    "specifications": {
+      "dpi": "30000",
+      "buttons": "9",
+      "weight": "63g",
+      "battery": "70 hours",
+      "type": "Wireless"
+    },
+    "reviews": [
+      "Excellent gaming performance.",
+      "Great ergonomic design.",
+      "Responsive and accurate.",
+      "Value for money option."
+    ]
+  },
+  {
+    "id": "gaming003",
+    "name": "SteelSeries Prime Pro",
+    "category": "Gaming Accessories",
+    "price": 9999,
+    "rating": 4.6,
+    "brand": "SteelSeries",
+    "description": "Gaming mouse with 18k CPI sensor, lightweight design, wireless connectivity.",
+    "specifications": {
+      "dpi": "18000",
+      "buttons": "5",
+      "weight": "83g",
+      "battery": "100 hours",
+      "type": "Wireless"
+    },
+    "reviews": [
+      "Great budget gaming mouse.",
+      "Excellent battery life.",
+      "Reliable and accurate.",
+      "Good for competitive gaming."
+    ]
+  },
+  {
+    "id": "gaming004",
+    "name": "Corsair Dark Core RGB PRO",
+    "category": "Gaming Accessories",
+    "price": 11999,
+    "rating": 4.5,
+    "brand": "Corsair",
+    "description": "Gaming mouse with 18k DPI, wireless and wired modes, comfort grip.",
+    "specifications": {
+      "dpi": "18000",
+      "buttons": "9",
+      "weight": "98g",
+      "battery": "24 hours",
+      "type": "Wireless/Wired"
+    },
+    "reviews": [
+      "Good all-around gaming mouse.",
+      "Comfortable grip for long sessions.",
+      "Wireless and wired flexibility.",
+      "RGB lighting is customizable."
+    ]
+  },
+  {
+    "id": "gaming005",
+    "name": "Finalmouse UltralightX",
+    "category": "Gaming Accessories",
+    "price": 8999,
+    "rating": 4.6,
+    "brand": "Finalmouse",
+    "description": "Ultra-lightweight gaming mouse, 2.4GHz wireless, 80-hour battery.",
+    "specifications": {
+      "dpi": "32000",
+      "buttons": "4",
+      "weight": "54g",
+      "battery": "80 hours",
+      "type": "Wireless"
+    },
+    "reviews": [
+      "Lightest gaming mouse available.",
+      "Perfect for competitive FPS games.",
+      "Excellent precision.",
+      "Great for sweaty gaming."
+    ]
+  },
+  {
+    "id": "gaming006",
+    "name": "Asus ROG Chakram Core",
+    "category": "Gaming Accessories",
+    "price": 5999,
+    "rating": 4.4,
+    "brand": "Asus",
+    "description": "Budget gaming mouse with 16k DPI, joystick feature, RGB lighting.",
+    "specifications": {
+      "dpi": "16000",
+      "buttons": "7",
+      "weight": "105g",
+      "battery": "48 hours",
+      "type": "Wireless"
+    },
+    "reviews": [
+      "Great value budget mouse.",
+      "Unique joystick feature.",
+      "Good for various games.",
+      "Decent build quality."
+    ]
+  },
+  {
+    "id": "gaming007",
+    "name": "Mad Catz R.A.T. Pro X Plus",
+    "category": "Gaming Accessories",
+    "price": 14999,
+    "rating": 4.5,
+    "brand": "Mad Catz",
+    "description": "Adjustable gaming mouse with 26k DPI, customizable components.",
+    "specifications": {
+      "dpi": "26000",
+      "buttons": "8",
+      "weight": "95g",
+      "battery": "70 hours",
+      "type": "Wireless"
+    },
+    "reviews": [
+      "Highly customizable design.",
+      "Great for different hand sizes.",
+      "Excellent performance.",
+      "Unique ergonomic options."
+    ]
+  },
+  {
+    "id": "gaming008",
+    "name": "Zowie EC2-C",
+    "category": "Gaming Accessories",
+    "price": 6999,
+    "rating": 4.5,
+    "brand": "Zowie",
+    "description": "Esports gaming mouse, ergonomic design, 3389 sensor, wired.",
+    "specifications": {
+      "dpi": "3389",
+      "buttons": "5",
+      "weight": "73g",
+      "battery": "None",
+      "type": "Wired"
+    },
+    "reviews": [
+      "Professional esports mouse.",
+      "Great ergonomic shape.",
+      "Trusted by pro players.",
+      "Reliable wired connection."
+    ]
+  },
+  {
+    "id": "gaming009",
+    "name": "Glorious Model O Wireless",
+    "category": "Gaming Accessories",
+    "price": 8999,
+    "rating": 4.6,
+    "brand": "Glorious",
+    "description": "Lightweight gaming mouse, honeycomb shell, 19k DPI sensor.",
+    "specifications": {
+      "dpi": "19000",
+      "buttons": "6",
+      "weight": "69g",
+      "battery": "71 hours",
+      "type": "Wireless"
+    },
+    "reviews": [
+      "Excellent value gaming mouse.",
+      "Lightweight with good performance.",
+      "Great for competitive play.",
+      "Reliable and durable."
+    ]
+  },
+  {
+    "id": "gaming010",
+    "name": "Pulsar Xlite Wireless",
+    "category": "Gaming Accessories",
+    "price": 7999,
+    "rating": 4.6,
+    "brand": "Pulsar",
+    "description": "Budget-friendly gaming mouse, 16k DPI, unique X-shaped design.",
+    "specifications": {
+      "dpi": "16000",
+      "buttons": "6",
+      "weight": "59g",
+      "battery": "80 hours",
+      "type": "Wireless"
+    },
+    "reviews": [
+      "Excellent value for features.",
+      "Unique lightweight design.",
+      "Good for budget gamers.",
+      "Solid performance overall."
+    ]
+  },
+  {
+    "id": "gaming011",
+    "name": "Corsair K65 RGB Pro Mini",
+    "category": "Gaming Accessories",
+    "price": 22999,
+    "rating": 4.7,
+    "brand": "Corsair",
+    "description": "65% gaming keyboard with mechanical switches, RGB lighting, aluminum frame.",
+    "specifications": {
+      "size": "65%",
+      "switch": "Corsair Cherry MX",
+      "rgb": true,
+      "wired": true,
+      "polling_rate": "8000Hz"
+    },
+    "reviews": [
+      "Great compact gaming keyboard.",
+      "Excellent build quality.",
+      "RGB customization is extensive.",
+      "Perfect for streamers and gamers."
+    ]
+  },
+  {
+    "id": "gaming012",
+    "name": "Ducky One 3 Mini",
+    "category": "Gaming Accessories",
+    "price": 21999,
+    "rating": 4.8,
+    "brand": "Ducky",
+    "description": "60% mechanical gaming keyboard, PBT keycaps, premium build quality.",
+    "specifications": {
+      "size": "60%",
+      "switch": "Gateron",
+      "rgb": true,
+      "wired": true,
+      "polling_rate": "1000Hz"
+    },
+    "reviews": [
+      "Premium compact keyboard.",
+      "Best keycaps out of the box.",
+      "Excellent typing feel.",
+      "Highly recommended."
+    ]
+  },
+  {
+    "id": "gaming013",
+    "name": "Keychron K8 Pro",
+    "category": "Gaming Accessories",
+    "price": 14999,
+    "rating": 4.6,
+    "brand": "Keychron",
+    "description": "Wireless mechanical keyboard, hot-swap switches, multi-device connectivity.",
+    "specifications": {
+      "size": "75%",
+      "switch": "Hot-swap",
+      "rgb": true,
+      "wireless": true,
+      "polling_rate": "1000Hz"
+    },
+    "reviews": [
+      "Great value mechanical keyboard.",
+      "Wireless functionality is reliable.",
+      "Hot-swap switches are convenient.",
+      "Good for work and gaming."
+    ]
+  },
+  {
+    "id": "gaming014",
+    "name": "SteelSeries Apex Pro TKL",
+    "category": "Gaming Accessories",
+    "price": 24999,
+    "rating": 4.7,
+    "brand": "SteelSeries",
+    "description": "TKL gaming keyboard with adjustable mechanical switches, OLED display.",
+    "specifications": {
+      "size": "TKL",
+      "switch": "OmniPoint",
+      "rgb": true,
+      "wired": true,
+      "polling_rate": "8000Hz"
+    },
+    "reviews": [
+      "Adjustable switch actuation is innovative.",
+      "Excellent gaming performance.",
+      "Premium build quality.",
+      "Worth the investment."
+    ]
+  },
+  {
+    "id": "gaming015",
+    "name": "Logitech G815 Lightsync",
+    "category": "Gaming Accessories",
+    "price": 19999,
+    "rating": 4.6,
+    "brand": "Logitech",
+    "description": "Low-profile mechanical gaming keyboard, RGB lighting, 8000Hz polling rate.",
+    "specifications": {
+      "size": "Full",
+      "switch": "GL",
+      "rgb": true,
+      "wired": true,
+      "polling_rate": "8000Hz"
+    },
+    "reviews": [
+      "Great low-profile gaming keyboard.",
+      "Excellent key feel.",
+      "RGB lighting is beautiful.",
+      "Good for gaming and typing."
+    ]
+  },
+  {
+    "id": "gaming016",
+    "name": "Razer Huntsman Mini",
+    "category": "Gaming Accessories",
+    "price": 10999,
+    "rating": 4.5,
+    "brand": "Razer",
+    "description": "60% gaming keyboard with optical switches, compact design.",
+    "specifications": {
+      "size": "60%",
+      "switch": "Razer Optical",
+      "rgb": true,
+      "wired": true,
+      "polling_rate": "8000Hz"
+    },
+    "reviews": [
+      "Compact and reliable gaming keyboard.",
+      "Optical switches are responsive.",
+      "Great value compact keyboard.",
+      "Good for FPS gaming."
+    ]
+  },
+  {
+    "id": "gaming017",
+    "name": "Asus ROG Azoth",
+    "category": "Gaming Accessories",
+    "price": 26999,
+    "rating": 4.7,
+    "brand": "Asus",
+    "description": "Premium modular gaming keyboard, hot-swap, OLED screen.",
+    "specifications": {
+      "size": "TKL",
+      "switch": "Hot-swap",
+      "rgb": true,
+      "wireless": true,
+      "polling_rate": "8000Hz"
+    },
+    "reviews": [
+      "Premium gaming keyboard experience.",
+      "Modular design is unique.",
+      "OLED screen is functional.",
+      "Excellent build quality."
+    ]
+  },
+  {
+    "id": "gaming018",
+    "name": "Glorious GMMK Pro",
+    "category": "Gaming Accessories",
+    "price": 16999,
+    "rating": 4.6,
+    "brand": "Glorious",
+    "description": "Hot-swap modular gaming keyboard, aluminum frame, RGB lighting.",
+    "specifications": {
+      "size": "75%",
+      "switch": "Hot-swap",
+      "rgb": true,
+      "wired": true,
+      "polling_rate": "8000Hz"
+    },
+    "reviews": [
+      "Great value modular keyboard.",
+      "Hot-swap customization is excellent.",
+      "Build quality is solid.",
+      "Perfect for enthusiasts."
+    ]
+  },
+  {
+    "id": "gaming019",
+    "name": "Varmilo VA87M",
+    "category": "Gaming Accessories",
+    "price": 13999,
+    "rating": 4.7,
+    "brand": "Varmilo",
+    "description": "TKL mechanical keyboard, stabilizer tuning, ergonomic design.",
+    "specifications": {
+      "size": "TKL",
+      "switch": "Mechanical",
+      "rgb": true,
+      "wired": true,
+      "polling_rate": "1000Hz"
+    },
+    "reviews": [
+      "Excellent typing experience.",
+      "Premium build quality.",
+      "Great for both work and gaming.",
+      "Highly recommended."
+    ]
+  },
+  {
+    "id": "gaming020",
+    "name": "Corsair Scimitar Pro RGB",
+    "category": "Gaming Accessories",
+    "price": 13999,
+    "rating": 4.5,
+    "brand": "Corsair",
+    "description": "MMO gaming mouse with 17 side buttons, 18k DPI sensor.",
+    "specifications": {
+      "dpi": "18000",
+      "buttons": "17",
+      "weight": "123g",
+      "battery": "Wired",
+      "type": "Wired"
+    },
+    "reviews": [
+      "Perfect for MMO and MOBA games.",
+      "Programmable side buttons are great.",
+      "Good precision and control.",
+      "Ideal for specific game types."
+    ]
+  }
+]
