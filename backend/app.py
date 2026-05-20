@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from routes.auth import router as auth_router
 from routes.ask import router as ask_router
 from services.db_service import init_db
 from services.vector_service import vector_service
@@ -31,4 +32,5 @@ async def startup_event():
     await rag_service.initialize()
     logger.info("Startup complete.")
 
+app.include_router(auth_router, prefix="/api")
 app.include_router(ask_router, prefix="/api")

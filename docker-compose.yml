@@ -29,6 +29,9 @@ services:
       FASTAPI_HOST: 0.0.0.0
       FASTAPI_PORT: 8000
       DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-ai_shopping_copilot}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:-change-this-secret-in-production}
+      JWT_ALGORITHM: ${JWT_ALGORITHM:-HS256}
+      JWT_ACCESS_TOKEN_EXPIRE_MINUTES: ${JWT_ACCESS_TOKEN_EXPIRE_MINUTES:-1440}
       GEMINI_API_KEY: ${GEMINI_API_KEY:-}
       GEMINI_MODEL: ${GEMINI_MODEL:-gemini-pro}
       HUGGINGFACE_API_KEY: ${HUGGINGFACE_API_KEY:-}

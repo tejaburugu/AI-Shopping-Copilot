@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Float, Integer, String, Text
+from sqlalchemy import Column, DateTime, Float, Integer, String, Text, func
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
@@ -32,4 +32,22 @@ class ProductTable(Base):
             "rating": self.rating,
             "description": self.description,
             "image_url": self.image_url,
+        }
+
+
+class UserTable(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    email = Column(String, unique=True, index=True, nullable=False)
+    full_name = Column(String, nullable=True)
+    hashed_password = Column(String, nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    def as_dict(self):
+        return {
+            "id": self.id,
+            "email": self.email,
+            "full_name": self.full_name,
+            "created_at": self.created_at,
         }

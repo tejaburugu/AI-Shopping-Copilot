@@ -17,3 +17,15 @@ export interface AskResponse {
   previous_queries?: string[];
   products: Product[];
 }
+
+export interface AuthUser {
+  id: number;
+  email: string;
+  full_name?: string | null;
+}
+
+export interface AuthResponse {
+  access_token: string;
+  token_type: string;
+  user: AuthUser;
+}

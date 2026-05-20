@@ -1,4 +1,11 @@
-function Navbar() {
+import type { AuthUser } from "../types";
+
+interface NavbarProps {
+  user?: AuthUser | null;
+  onLogout?: () => void;
+}
+
+function Navbar({ user, onLogout }: NavbarProps) {
   return (
     <nav className="sticky top-0 z-30 border-b border-slate-200/80 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
@@ -18,9 +25,22 @@ function Navbar() {
           <a href="#suggestions" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">Questions</a>
         </div>
 
-        <button className="hidden rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white transition hover:bg-slate-800 sm:inline-flex">
-          Start shopping
-        </button>
+        {user ? (
+          <div className="hidden items-center gap-3 sm:flex">
+            <span className="text-sm font-medium text-slate-600">{user.full_name || user.email}</span>
+            <button
+              type="button"
+              onClick={onLogout}
+              className="rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white transition hover:bg-slate-800"
+            >
+              Logout
+            </button>
+          </div>
+        ) : (
+          <span className="hidden rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white sm:inline-flex">
+            Sign in
+          </span>
+        )}
       </div>
     </nav>
   );

@@ -19,6 +19,7 @@ Core goals:
 ## Features
 
 - Conversational product search with multi-turn memory.
+- JWT-based authentication with register, login, and protected assistant endpoints.
 - RAG-powered answers using retrieved product context.
 - Product recommendation cards with price, brand, rating, description, and action buttons.
 - Semantic product retrieval with embeddings and FAISS.
@@ -35,6 +36,8 @@ Core goals:
 flowchart LR
     User[User] --> UI[React + Tailwind Frontend]
     UI --> API[FastAPI Backend]
+    API --> Auth[JWT Auth Service]
+    Auth --> Users[(Users Table)]
     API --> Memory[LangChain Conversation Memory]
     API --> RAG[RAG Service]
     RAG --> Vector[FAISS Vector Store]
@@ -53,13 +56,20 @@ sequenceDiagram
     participant U as User
     participant F as Frontend
     participant B as FastAPI
+    participant A as Auth Service
     participant M as Memory Service
     participant R as RAG Service
     participant V as Vector Store
     participant L as LLM
 
+    U->>F: Login or register
+    F->>B: POST /api/auth/login or /register
+    B->>A: Verify credentials
+    A-->>B: JWT access token
+    B-->>F: Auth response
     U->>F: Ask shopping query
-    F->>B: POST /api/ask with query + session_id
+    F->>B: POST /api/ask with bearer token
+    B->>A: Validate JWT
     B->>M: Load previous conversation
     M-->>B: Conversation history
     B->>R: Contextual query
@@ -82,6 +92,7 @@ sequenceDiagram
 | AI Orchestration | LangChain, Gemini |
 | Retrieval | FAISS, sentence-transformers |
 | Memory | LangChain `ConversationBufferMemory` |
+| Authentication | JWT, Passlib bcrypt, python-jose |
 | Database | PostgreSQL, SQLAlchemy async, asyncpg |
 | API Client | Axios |
 | Deployment | Docker, Docker Compose, Nginx |
@@ -90,14 +101,16 @@ sequenceDiagram
 
 The backend uses Retrieval-Augmented Generation to keep answers grounded in catalog data.
 
-1. The frontend sends a user query and session id to `/api/ask`.
-2. The memory service loads prior turns and builds a contextual query for follow-up requests.
-3. The RAG service searches the FAISS vector index for semantically relevant product chunks.
-4. Retrieved documents are mapped back to product records.
-5. If semantic retrieval returns no matches, the product service performs fallback keyword search.
-6. Product descriptions, specifications, reviews, prices, and ratings are assembled into context.
-7. The LLM generates a concise shopping recommendation grounded in the retrieved products.
-8. The final turn is saved back into conversation memory.
+1. The user registers or logs in and receives a JWT access token.
+2. The frontend sends a user query, session id, and bearer token to `/api/ask`.
+3. FastAPI validates the JWT and resolves the current user.
+4. The memory service loads prior turns and builds a contextual query for follow-up requests.
+5. The RAG service searches the FAISS vector index for semantically relevant product chunks.
+6. Retrieved documents are mapped back to product records.
+7. If semantic retrieval returns no matches, the product service performs fallback keyword search.
+8. Product descriptions, specifications, reviews, prices, and ratings are assembled into context.
+9. The LLM generates a concise shopping recommendation grounded in the retrieved products.
+10. The final turn is saved back into conversation memory.
 
 This allows follow-ups like:
 
@@ -146,12 +159,15 @@ AI Shopping Copilot/
 │   ├── data/
 │   │   └── products.json
 │   ├── models/
+│   │   ├── auth.py
 │   │   ├── db.py
 │   │   ├── product.py
 │   │   └── response.py
 │   ├── routes/
+│   │   ├── auth.py
 │   │   └── ask.py
 │   ├── services/
+│   │   ├── auth_service.py
 │   │   ├── ai_service.py
 │   │   ├── db_service.py
 │   │   ├── llm.py
@@ -202,6 +218,9 @@ Set your API keys in `.env`:
 GEMINI_API_KEY=your_gemini_api_key
 GEMINI_MODEL=gemini-pro
 HUGGINGFACE_API_KEY=your_huggingface_key
+JWT_SECRET_KEY=replace_with_a_long_random_secret
+JWT_ALGORITHM=HS256
+JWT_ACCESS_TOKEN_EXPIRE_MINUTES=1440
 VITE_API_BASE_URL=http://localhost:8000/api
 ```
 
@@ -221,6 +240,14 @@ Backend API:
 
 ```text
 http://localhost:8000/api/ask
+```
+
+Authentication endpoints:
+
+```text
+POST http://localhost:8000/api/auth/register
+POST http://localhost:8000/api/auth/login
+GET  http://localhost:8000/api/auth/me
 ```
 
 PostgreSQL:
